@@ -1,0 +1,668 @@
+{
+  "shipments": [
+    {
+      "id": "S1000",
+      "name": "T-shirts from Shanghai to Pune",
+      "cargo": [
+        {
+          "type": "Fabric",
+          "description": "1000 Blue T-shirts",
+          "volume": "2"
+        },
+        {
+          "type": "Fabric",
+          "description": "2000 Green T-shirts",
+          "volume": "3"
+        }
+      ],
+      "mode": "sea",
+      "type": "FCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Shanghai Port",
+      "services": [
+        {
+          "type": "customs"
+        }
+      ],
+      "total": "1000",
+      "status": "ACTIVE",
+      "userId": "U1000"
+    },
+    {
+      "id": "S1001",
+      "name": "New spring collection goLang / Adidas",
+      "cargo": [
+        {
+          "type": "Furniture",
+          "description": "300 Tables",
+          "volume": "20"
+        },
+        {
+          "type": "Furniture",
+          "description": "1500 Chairs",
+          "volume": "15"
+        }
+      ],
+      "mode": "sea",
+      "type": "FCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Ningbo port",
+      "services": [
+        {
+          "type": "customs"
+        },
+        {
+          "type": "insurance",
+          "value": "100"
+        }
+      ],
+      "total": "3000",
+      "status": "ACTIVE",
+      "userId": "U1002"
+    },
+    {
+      "id": "S1002",
+      "name": "reebok shoes and trousers",
+      "cargo": [
+        {
+          "type": "Bikes model 27X",
+          "description": "100 Bikes model 27X",
+          "volume": "100"
+        }
+      ],
+      "mode": "air",
+      "type": "LCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Shanghai Port",
+      "services": [
+        {
+          "type": "customs"
+        }
+      ],
+      "total": "10000",
+      "status": "COMPLETED",
+      "userId": "U1001"
+    },
+    {
+      "id": "S1003",
+      "name": "T-shirts from Shanghai to Hamburg",
+      "cargo": [
+        {
+          "type": "Fabric",
+          "description": "1000 Blue T-shirts",
+          "volume": "2"
+        },
+        {
+          "type": "Fabric",
+          "description": "2000 Green T-shirts",
+          "volume": "3"
+        }
+      ],
+      "mode": "sea",
+      "type": "FCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Shanghai Port",
+      "services": [
+        {
+          "type": "customs"
+        }
+      ],
+      "total": "1000",
+      "status": "ACTIVE",
+      "userId": "U1000"
+    },
+    {
+      "id": "S1004",
+      "name": "New spring collection 008",
+      "cargo": [
+        {
+          "type": "Furniture",
+          "description": "300 Tables",
+          "volume": "20"
+        },
+        {
+          "type": "Furniture",
+          "description": "1500 Chairs",
+          "volume": "15"
+        }
+      ],
+      "mode": "sea",
+      "type": "FCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Ningbo port",
+      "services": [
+        {
+          "type": "customs"
+        },
+        {
+          "type": "insurance",
+          "value": "100"
+        }
+      ],
+      "total": "3000",
+      "status": "ACTIVE",
+      "userId": "U1002"
+    },
+    {
+      "id": "S1005",
+      "name": "NIke Shoes",
+      "cargo": [
+        {
+          "type": "Bikes model 27X",
+          "description": "100 Bikes model 27X",
+          "volume": "100"
+        }
+      ],
+      "mode": "air",
+      "type": "LCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Shanghai Port",
+      "services": [
+        {
+          "type": "customs"
+        }
+      ],
+      "total": "10000",
+      "status": "COMPLETED",
+      "userId": "U1001"
+    },
+    {
+      "id": "S1006",
+      "name": "T-shirts from Shanghai to Hamburg",
+      "cargo": [
+        {
+          "type": "Fabric",
+          "description": "1000 Blue T-shirts",
+          "volume": "2"
+        },
+        {
+          "type": "Fabric",
+          "description": "2000 Green T-shirts",
+          "volume": "3"
+        }
+      ],
+      "mode": "sea",
+      "type": "FCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Shanghai Port",
+      "services": [
+        {
+          "type": "customs"
+        }
+      ],
+      "total": "1000",
+      "status": "ACTIVE",
+      "userId": "U1000"
+    },
+    {
+      "id": "S1007",
+      "name": "New spring collection",
+      "cargo": [
+        {
+          "type": "Furniture",
+          "description": "300 Tables",
+          "volume": "20"
+        },
+        {
+          "type": "Furniture",
+          "description": "1500 Chairs",
+          "volume": "15"
+        }
+      ],
+      "mode": "sea",
+      "type": "FCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Ningbo port",
+      "services": [
+        {
+          "type": "customs"
+        },
+        {
+          "type": "insurance",
+          "value": "100"
+        }
+      ],
+      "total": "3000",
+      "status": "ACTIVE",
+      "userId": "U1002"
+    },
+    {
+      "id": "S1008",
+      "name": "Apple iPhone X new generation version",
+      "cargo": [
+        {
+          "type": "Bikes model 27X",
+          "description": "100 Bikes model 27X",
+          "volume": "100"
+        }
+      ],
+      "mode": "air",
+      "type": "LCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Shanghai Port",
+      "services": [
+        {
+          "type": "customs"
+        }
+      ],
+      "total": "10000",
+      "status": "COMPLETED",
+      "userId": "U1001"
+    },
+    {
+      "id": "S1009",
+      "name": "T-shirts from Shanghai to Hamburg",
+      "cargo": [
+        {
+          "type": "Fabric",
+          "description": "1000 Blue T-shirts",
+          "volume": "2"
+        },
+        {
+          "type": "Fabric",
+          "description": "2000 Green T-shirts",
+          "volume": "3"
+        }
+      ],
+      "mode": "sea",
+      "type": "FCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Shanghai Port",
+      "services": [
+        {
+          "type": "customs"
+        }
+      ],
+      "total": "1000",
+      "status": "ACTIVE",
+      "userId": "U1000"
+    },
+    {
+      "id": "S1010",
+      "name": "New spring collection",
+      "cargo": [
+        {
+          "type": "Furniture",
+          "description": "300 Tables",
+          "volume": "20"
+        },
+        {
+          "type": "Furniture",
+          "description": "1500 Chairs",
+          "volume": "15"
+        }
+      ],
+      "mode": "sea",
+      "type": "FCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Ningbo port",
+      "services": [
+        {
+          "type": "customs"
+        },
+        {
+          "type": "insurance",
+          "value": "100"
+        }
+      ],
+      "total": "3000",
+      "status": "ACTIVE",
+      "userId": "U1002"
+    },
+    {
+      "id": "S1011",
+      "name": "China plastic products",
+      "cargo": [
+        {
+          "type": "Bikes model 27X",
+          "description": "100 Bikes model 27X",
+          "volume": "100"
+        }
+      ],
+      "mode": "air",
+      "type": "LCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Shanghai Port",
+      "services": [
+        {
+          "type": "customs"
+        }
+      ],
+      "total": "10000",
+      "status": "COMPLETED",
+      "userId": "U1001"
+    },
+    {
+      "id": "S1012",
+      "name": "T-shirts from Shanghai to Hamburg",
+      "cargo": [
+        {
+          "type": "Fabric",
+          "description": "1000 Blue T-shirts",
+          "volume": "2"
+        },
+        {
+          "type": "Fabric",
+          "description": "2000 Green T-shirts",
+          "volume": "3"
+        }
+      ],
+      "mode": "sea",
+      "type": "FCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Shanghai Port",
+      "services": [
+        {
+          "type": "customs"
+        }
+      ],
+      "total": "1000",
+      "status": "ACTIVE",
+      "userId": "U1000"
+    },
+    {
+      "id": "S1013",
+      "name": "New spring collection",
+      "cargo": [
+        {
+          "type": "Furniture",
+          "description": "300 Tables",
+          "volume": "20"
+        },
+        {
+          "type": "Furniture",
+          "description": "1500 Chairs",
+          "volume": "15"
+        }
+      ],
+      "mode": "sea",
+      "type": "FCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Ningbo port",
+      "services": [
+        {
+          "type": "customs"
+        },
+        {
+          "type": "insurance",
+          "value": "100"
+        }
+      ],
+      "total": "3000",
+      "status": "ACTIVE",
+      "userId": "U1002"
+    },
+    {
+      "id": "S1014",
+      "name": "ATLAS Bikes with gear",
+      "cargo": [
+        {
+          "type": "Bikes model 27X",
+          "description": "100 Bikes model 27X",
+          "volume": "100"
+        }
+      ],
+      "mode": "air",
+      "type": "LCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Shanghai Port",
+      "services": [
+        {
+          "type": "customs"
+        }
+      ],
+      "total": "10000",
+      "status": "COMPLETED",
+      "userId": "U1001"
+    },
+    {
+      "id": "S1015",
+      "name": "T-shirts from Shanghai to Hamburg",
+      "cargo": [
+        {
+          "type": "Fabric",
+          "description": "1000 Blue T-shirts",
+          "volume": "2"
+        },
+        {
+          "type": "Fabric",
+          "description": "2000 Green T-shirts",
+          "volume": "3"
+        }
+      ],
+      "mode": "sea",
+      "type": "FCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Shanghai Port",
+      "services": [
+        {
+          "type": "customs"
+        }
+      ],
+      "total": "1000",
+      "status": "ACTIVE",
+      "userId": "U1000"
+    },
+    {
+      "id": "S1016",
+      "name": "New spring collection",
+      "cargo": [
+        {
+          "type": "Furniture",
+          "description": "300 Tables",
+          "volume": "20"
+        },
+        {
+          "type": "Furniture",
+          "description": "1500 Chairs",
+          "volume": "15"
+        }
+      ],
+      "mode": "sea",
+      "type": "FCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Ningbo port",
+      "services": [
+        {
+          "type": "customs"
+        },
+        {
+          "type": "insurance",
+          "value": "100"
+        }
+      ],
+      "total": "3000",
+      "status": "ACTIVE",
+      "userId": "U1002"
+    },
+    {
+      "id": "S1017",
+      "name": "BMW motor bikes",
+      "cargo": [
+        {
+          "type": "Bikes model 27X",
+          "description": "100 Bikes model 27X",
+          "volume": "100"
+        }
+      ],
+      "mode": "air",
+      "type": "LCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Shanghai Port",
+      "services": [
+        {
+          "type": "customs"
+        }
+      ],
+      "total": "10000",
+      "status": "COMPLETED",
+      "userId": "U1001"
+    },
+    {
+      "id": "S1017",
+      "name": "T-shirts from Shanghai to Hamburg",
+      "cargo": [
+        {
+          "type": "Fabric",
+          "description": "1000 Blue T-shirts",
+          "volume": "2"
+        },
+        {
+          "type": "Fabric",
+          "description": "2000 Green T-shirts",
+          "volume": "3"
+        }
+      ],
+      "mode": "sea",
+      "type": "FCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Shanghai Port",
+      "services": [
+        {
+          "type": "customs"
+        }
+      ],
+      "total": "1000",
+      "status": "ACTIVE",
+      "userId": "U1000"
+    },
+    {
+      "id": "S1019",
+      "name": "New spring collection",
+      "cargo": [
+        {
+          "type": "Furniture",
+          "description": "300 Tables",
+          "volume": "20"
+        },
+        {
+          "type": "Furniture",
+          "description": "1500 Chairs",
+          "volume": "15"
+        }
+      ],
+      "mode": "sea",
+      "type": "FCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Ningbo port",
+      "services": [
+        {
+          "type": "customs"
+        },
+        {
+          "type": "insurance",
+          "value": "100"
+        }
+      ],
+      "total": "3000",
+      "status": "ACTIVE",
+      "userId": "U1002"
+    },
+    {
+      "id": "S1020",
+      "name": "PO89634, PO27X",
+      "cargo": [
+        {
+          "type": "Bikes model 27X",
+          "description": "100 Bikes model 27X",
+          "volume": "100"
+        }
+      ],
+      "mode": "air",
+      "type": "LCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Shanghai Port",
+      "services": [
+        {
+          "type": "customs"
+        }
+      ],
+      "total": "10000",
+      "status": "COMPLETED",
+      "userId": "U1001"
+    },
+    {
+      "id": "S1021",
+      "name": "T-shirts from Shanghai to Hamburg",
+      "cargo": [
+        {
+          "type": "Fabric",
+          "description": "1000 Blue T-shirts",
+          "volume": "2"
+        },
+        {
+          "type": "Fabric",
+          "description": "2000 Green T-shirts",
+          "volume": "3"
+        }
+      ],
+      "mode": "sea",
+      "type": "FCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Shanghai Port",
+      "services": [
+        {
+          "type": "customs"
+        }
+      ],
+      "total": "1000",
+      "status": "ACTIVE",
+      "userId": "U1000"
+    },
+    {
+      "id": "S1022",
+      "name": "New spring collection",
+      "cargo": [
+        {
+          "type": "Furniture",
+          "description": "300 Tables",
+          "volume": "20"
+        },
+        {
+          "type": "Furniture",
+          "description": "1500 Chairs",
+          "volume": "15"
+        }
+      ],
+      "mode": "sea",
+      "type": "FCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Ningbo port",
+      "services": [
+        {
+          "type": "customs"
+        },
+        {
+          "type": "insurance",
+          "value": "100"
+        }
+      ],
+      "total": "3000",
+      "status": "ACTIVE",
+      "userId": "U1002"
+    },
+    {
+      "id": "S1023",
+      "name": "PO89634, PO27X",
+      "cargo": [
+        {
+          "type": "Bikes model 27X",
+          "description": "100 Bikes model 27X",
+          "volume": "100"
+        }
+      ],
+      "mode": "air",
+      "type": "LCL",
+      "destination": "bac Str. 38, 10405 karkaw",
+      "origin": "Shanghai Port",
+      "services": [
+        {
+          "type": "customs"
+        }
+      ],
+      "total": "10000",
+      "status": "COMPLETED",
+      "userId": "U1001"
+    }
+  ]
+}

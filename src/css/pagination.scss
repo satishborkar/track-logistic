@@ -1,0 +1,38 @@
+.pagination-container {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.pagination-container ul,
+.pagination-container ul li {
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pagination-container ul li {
+  display: inline;
+}
+
+.btn-page {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 7px 12px;
+  margin-right: 5px;
+  transition: all ease-in 0.3s;
+}
+
+.btn-page:hover,
+.btn-page:focus {
+  outline: none;
+  border: 1px solid #1a73e8;
+}
+
+.btn-page:focus,
+.btn-page.active {
+  background: #1a73e8;
+  color: #fff;
+  border: 1px solid #1a73e8;
+}

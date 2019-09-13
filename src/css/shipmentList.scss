@@ -1,0 +1,93 @@
+.shipment-list-container {
+  padding-top: 30px;
+}
+
+table.list {
+  width: 100%;
+  margin: 0;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+table.list tr td,
+table.list tr th {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+table.list tr td:last-child,
+table.list tr th:last-child {
+  border-right: 1px solid #ccc;
+}
+
+table.list tr th {
+  padding: 7px;
+  background-color: rgb(251, 250, 250);
+}
+
+table.list tbody tr {
+  transition: background-color ease-in 0.3s;
+}
+
+table.list tbody tr:hover {
+  background-color: rgba(255, 268, 196, 0.5);
+}
+
+.btn-link {
+  display: inline-block;
+  border: 0;
+  color: #1a73e8;
+  background: transparent;
+  font-size: 14px;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+  text-decoration: underline;
+  outline: 0;
+}
+
+.no-data-found {
+  padding: 25px;
+  text-align: center;
+  color: #dd1812;
+  font-size: 18px;
+}
+
+.sort-asc,
+.sort-desc {
+  cursor: pointer;
+  visibility: hidden;
+}
+
+table.list tr th:hover .sort-asc,
+table.list tr th:focus .sort-asc,
+table.list tr th:hover .sort-desc,
+table.list tr th:focus .sort-desc {
+  visibility: visible;
+}
+
+.sort-asc:hover,
+.sort-desc:hover,
+.sort-asc:focus,
+.sort-desc:focus {
+  color: #1a73e8;
+}
+
+.sort-asc {
+  margin-left: 5px;
+}
+
+.sort-desc {
+  margin-right: 5px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .shipment-list-container {
+    padding-top: 5px;
+    width: 100%;
+    overflow-x: auto;
+  }
+}

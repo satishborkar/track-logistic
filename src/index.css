@@ -1,0 +1,8 @@
+@import "./css/loader.scss";
+@import "./css/app.scss";
+@import "./css/shipmentDetails.scss";
+@import "./css/shipmentList.scss";
+@import "./css/layout.scss";
+@import "./css/home.scss";
+@import "./css/pagination.scss";
+@import "./css/displayMessage.scss";

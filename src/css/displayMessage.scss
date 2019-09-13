@@ -1,0 +1,18 @@
+.message-holder {
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.message-holder.success {
+  color: #16a61e;
+  border-color: #16a61e;
+}
+
+.message-holder.error {
+  color: #dd1812;
+  border-color: #dd1812;
+}
